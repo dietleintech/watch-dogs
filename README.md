@@ -12,17 +12,19 @@ yum install git
 
 ##### For CentOS 8
 
+All in one:
 ```
 cd /usr/share/plymouth/themes
 sudo git clone https://github.com/dietleintech/watch-dogs.git
 cd watch-dogs/
 sudo bash install.sh
 ```
+Pick the theme number when prompted.
 
 OR
 
-1 Copy the whole folder to /usr/share/plymouth/themes. (***remember the root permission is needed***).
-2 Then locate and run the bash script in the folder ; named "install.sh".
+Copy the whole folder to /usr/share/plymouth/themes. (***remember the root permission is needed***).
+Then locate and run the bash script in the folder ; named "install.sh".
 
 ```bash
 bash install.sh
@@ -31,6 +33,6 @@ or
 ```bash
 ./install.sh
 ```
-3 Pick the theme number when prompted.
+Pick the theme number when prompted.
 
 **Note** : *The whole animation will run in the computer which boots slower (well, fast computers are FAST)*.
