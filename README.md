@@ -1,5 +1,7 @@
 # watch-dogs-boot-animation-centos
-Boot animation adapted from the ubuntu version. *Tested for CentOS 8 (minimal installation)*. 
+Boot animation adapted from the ubuntu version. *Tested for CentOS 8 (minimal installation)*.
+
+**CAUTION:** Doesn't work on encrypted systems, because the animation starts before the password insert, therefore it's unable to load the animation! 
 
 #### To install:
 
