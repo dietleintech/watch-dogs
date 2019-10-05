@@ -2,4 +2,4 @@ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth d
 
 sudo update-alternatives --config default.plymouth
 
-sudo update-initramfs -u
+sudo plymouth-set-default-theme -R watch-dogs
